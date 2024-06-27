@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Beta ;
+  src: url("../fonts/Super\ Gallery\ Personal\ Use.ttf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Beta ; */
+
+}
+body{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZEDWrJJziUjWJhrrhUFIcBvbKfqdSBJYZkg&s");
+  height: 100vh;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+
+}
+
+.relogio{
+  width: 90%;
+  padding: 3% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 8px 10px #000;
+  border-radius: 5px
+}
+
+.relogio div{
+  border:2px solid;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  letter-spacing: 3px;
+  color: #fff;
+  background: #000;
+  box-shadow: 5px 5px 15px #00000011;
+  margin: 2%;
+  padding: 3%;
+}
+
+.relogio span{
+  font-weight: bolder;
+  font-size: 4rem;
+}
+.relogio span.tempo{
+  font-size: 2rem;
+}
+
+@media (max-width:700px) {
+
+  h1{
+      top: 5%;
+      font-size: 3rem;
+  }
+  .relogio{
+      flex-direction: column;
+      width: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
